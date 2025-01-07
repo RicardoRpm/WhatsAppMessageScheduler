@@ -1,0 +1,6 @@
+@WhatsAppMessageScheduler_HostAddress = http://localhost:5045
+
+GET {{WhatsAppMessageScheduler_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
