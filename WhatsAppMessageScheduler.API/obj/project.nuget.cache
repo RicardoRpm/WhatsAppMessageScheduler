@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3RbGCwXErOo=",
+  "success": true,
+  "projectFilePath": "C:\\Projectos\\WhatsAppMessageScheduler\\WhatsAppMessageScheduler.API\\WhatsAppMessageScheduler.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\juset\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.11\\microsoft.dotnet.ilcompiler.8.0.11.nupkg.sha512",
+    "C:\\Users\\juset\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.11\\microsoft.net.illink.tasks.8.0.11.nupkg.sha512",
+    "C:\\Users\\juset\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512",
+    "C:\\Users\\juset\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.11\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

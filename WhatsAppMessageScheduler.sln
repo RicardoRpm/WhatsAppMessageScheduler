@@ -3,15 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "..\Domain\Domain.csproj", "{FA9661BE-276E-4646-9DA3-F3521623BEB8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F01C901C-F3E6-4B94-9FD4-887FD6407EC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "..\Infrastructure\Infrastructure.csproj", "{198FB2E1-F4AA-4C0C-B021-FE39EB569978}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{408C0F2A-7234-4CDF-B4D5-BCF71F5706C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "..\Application\Application.csproj", "{9ED617F3-B942-458B-A493-03E0B54F2AAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppMessageScheduler.API", "WhatsAppMessageScheduler.API\WhatsAppMessageScheduler.API.csproj", "{A9C3A575-1AED-494F-A552-991FC4DF32B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "..\Persistence\Persistence.csproj", "{F498C331-1EE2-40C1-8686-E3EA60A264BC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastruture", "Infrastruture", "{D668F827-60F9-489D-92D6-427C4086EED0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppMessageScheduler.API", "..\WhatsAppMessageScheduler.API\WhatsAppMessageScheduler.API.csproj", "{95BD1FA4-63C3-4BD9-9DE3-A49A50398C34}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{60D20FD4-A1B3-44AC-8240-EE9B3B1F0001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppMessageScheduler.Persistence", "WhatsAppMessageScheduler.Persistence\WhatsAppMessageScheduler.Persistence.csproj", "{5F51A77A-93E4-4BF7-9E6E-AB05EF7DDCD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppMessageScheduler.Infrastuture", "WhatsAppMessageScheduler.Infrastuture\WhatsAppMessageScheduler.Infrastuture.csproj", "{AD5472BA-CAC9-4CC5-9175-DA6C09882699}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppMessageScheduler.Domain", "WhatsAppMessageScheduler.Domain\WhatsAppMessageScheduler.Domain.csproj", "{DB46FF70-FABC-4FCE-A1CD-A84E35854041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppMessageScheduler.Application", "WhatsAppMessageScheduler.Application\WhatsAppMessageScheduler.Application.csproj", "{5ECB6DA2-FED7-4CD9-AEA4-5EF9EEC17779}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,29 +27,36 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FA9661BE-276E-4646-9DA3-F3521623BEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA9661BE-276E-4646-9DA3-F3521623BEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA9661BE-276E-4646-9DA3-F3521623BEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA9661BE-276E-4646-9DA3-F3521623BEB8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{198FB2E1-F4AA-4C0C-B021-FE39EB569978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{198FB2E1-F4AA-4C0C-B021-FE39EB569978}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{198FB2E1-F4AA-4C0C-B021-FE39EB569978}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{198FB2E1-F4AA-4C0C-B021-FE39EB569978}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9ED617F3-B942-458B-A493-03E0B54F2AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9ED617F3-B942-458B-A493-03E0B54F2AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9ED617F3-B942-458B-A493-03E0B54F2AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9ED617F3-B942-458B-A493-03E0B54F2AAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F498C331-1EE2-40C1-8686-E3EA60A264BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F498C331-1EE2-40C1-8686-E3EA60A264BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F498C331-1EE2-40C1-8686-E3EA60A264BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F498C331-1EE2-40C1-8686-E3EA60A264BC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{95BD1FA4-63C3-4BD9-9DE3-A49A50398C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{95BD1FA4-63C3-4BD9-9DE3-A49A50398C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{95BD1FA4-63C3-4BD9-9DE3-A49A50398C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{95BD1FA4-63C3-4BD9-9DE3-A49A50398C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9C3A575-1AED-494F-A552-991FC4DF32B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C3A575-1AED-494F-A552-991FC4DF32B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C3A575-1AED-494F-A552-991FC4DF32B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C3A575-1AED-494F-A552-991FC4DF32B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F51A77A-93E4-4BF7-9E6E-AB05EF7DDCD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F51A77A-93E4-4BF7-9E6E-AB05EF7DDCD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F51A77A-93E4-4BF7-9E6E-AB05EF7DDCD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F51A77A-93E4-4BF7-9E6E-AB05EF7DDCD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5472BA-CAC9-4CC5-9175-DA6C09882699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5472BA-CAC9-4CC5-9175-DA6C09882699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5472BA-CAC9-4CC5-9175-DA6C09882699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5472BA-CAC9-4CC5-9175-DA6C09882699}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB46FF70-FABC-4FCE-A1CD-A84E35854041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB46FF70-FABC-4FCE-A1CD-A84E35854041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB46FF70-FABC-4FCE-A1CD-A84E35854041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB46FF70-FABC-4FCE-A1CD-A84E35854041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ECB6DA2-FED7-4CD9-AEA4-5EF9EEC17779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ECB6DA2-FED7-4CD9-AEA4-5EF9EEC17779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ECB6DA2-FED7-4CD9-AEA4-5EF9EEC17779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ECB6DA2-FED7-4CD9-AEA4-5EF9EEC17779}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9C3A575-1AED-494F-A552-991FC4DF32B8} = {408C0F2A-7234-4CDF-B4D5-BCF71F5706C8}
+		{5F51A77A-93E4-4BF7-9E6E-AB05EF7DDCD8} = {D668F827-60F9-489D-92D6-427C4086EED0}
+		{AD5472BA-CAC9-4CC5-9175-DA6C09882699} = {D668F827-60F9-489D-92D6-427C4086EED0}
+		{DB46FF70-FABC-4FCE-A1CD-A84E35854041} = {F01C901C-F3E6-4B94-9FD4-887FD6407EC3}
+		{5ECB6DA2-FED7-4CD9-AEA4-5EF9EEC17779} = {F01C901C-F3E6-4B94-9FD4-887FD6407EC3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9CAD377D-692F-4F25-9E78-3A33DC675F6E}

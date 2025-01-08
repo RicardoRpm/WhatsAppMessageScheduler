@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "I3i2eSZDE/hXsxtwKXTTwH9LCJjgv5VaKylPvz5gLZ0=",
+  "Source": "WhatsAppMessageScheduler.API",
+  "BasePath": "_content/WhatsAppMessageScheduler.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
