@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WhatsAppMessageScheduler.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2de9414201100b9647947bf20863ba4f125cfa04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fe6d3f68cb877a5abcef7a888d5796c5d0a0675")]
 [assembly: System.Reflection.AssemblyProductAttribute("WhatsAppMessageScheduler.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WhatsAppMessageScheduler.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
