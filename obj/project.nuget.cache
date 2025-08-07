@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "dlWIp7W75l0=",
+  "dgSpecHash": "JScHMyvmgxU=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\WhatsAppMessageScheduler\\WhatsAppMessageScheduler.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Projectos\\WhatsAppMessageScheduler\\WhatsAppMessageScheduler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\juset\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0-rc.2.24474.3\\microsoft.aspnetcore.openapi.9.0.0-rc.2.24474.3.nupkg.sha512",
+    "C:\\Users\\juset\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
   "logs": []
 }
