@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\WhatsAppMessageScheduler.API.props" />
-</Project>
